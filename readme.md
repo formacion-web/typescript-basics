@@ -3,18 +3,19 @@
 
 ## Preparación
 
-- Crea un proyecto vacío con el comando `npm init -y` 
-- Instala los packages de `ts-node` y `typescript`.
-- Crea un fichero `tsconfig.json` en el mismo directorio, con el siguiente contenido:
+- Crea un fichero `tsconfig.json` en el mismo directorio, con el comando `tsc --init` :
 
 ```json
 {
   "compilerOptions": {
+    "target":"esnext",
+    "module":"esnext",
+    "outDir": "dist",
     "noImplicitAny": true,
   }
 }
 ```
-
+- Crea el fichero index.html que mostrará el resultado del ejercicio.
 ## Iteración 1: Body mass index
 
 Crea un fichero con el nombre: __`bmiCalculator.ts`__

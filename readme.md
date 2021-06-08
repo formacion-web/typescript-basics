@@ -35,7 +35,7 @@ debería imprimir:
 Normal (healthy weight)
 ```
 
-Crea un script npm para correr el programa con el siguiente comando: `npm run calculateBmi`
+
 
 ## Iteración 2: Exercise calculator
 
